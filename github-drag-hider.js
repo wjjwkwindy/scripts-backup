@@ -19,7 +19,7 @@
     var dragIconElem = document.getElementsByClassName('pinned-repository-handle');
     var prElem = document.getElementsByClassName('js-pinned-repos-reorder-container')[0];
     var prH2Elem = prElem.childNodes[3];
-    if (prElem.innerText.indexOf('Pinned repositories') != -1) {
+    if (prElem.innerText.indexOf('Customize your pinned repositories') != -1) {
         var hideDrag = document.createElement('span');
         hideDrag.setAttribute('class', 'hide-drag');
         hideDrag.setAttribute('data-allowDrag', 'true');
