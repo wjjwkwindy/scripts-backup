@@ -10,6 +10,8 @@
 
 (function () {
     'use strict';
+
+    // 删除"google offered in"
     let SIvCob = document.getElementById('SIvCob');
     if (SIvCob.style) {
         // 删除'Google offered in'元素
@@ -29,4 +31,12 @@
         console.log('Can\'t find \'google offered in\'.');
         console.log('Kill Success!');
     }
+
+    // 添加Youtube链接
+    let gb_qe = document.getElementsByClassName('gb_qe')[0];
+    let gb_qe_youtube = document.getElementsByClassName('gb_qe')[0].childNodes[1].cloneNode(true);
+    gb_qe_youtube.childNodes[0].href = "https://www.youtube.com";
+    gb_qe_youtube.childNodes[0].innerText = "Youtube";
+    gb_qe.insertBefore(gb_qe_youtube, gb_qe.childNodes[2]);
+
 })();
