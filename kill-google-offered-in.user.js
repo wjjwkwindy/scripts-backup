@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  Kill "Google offered in" content at google homepage.
 // @author       wjjwkwindy
-// @match        https://www.google.com/
+// @match        https://www.google.com/*
 // @grant        none
 // ==/UserScript==
 
