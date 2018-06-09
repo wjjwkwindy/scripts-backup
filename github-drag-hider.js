@@ -2,7 +2,7 @@
 // @name         Github drag disable
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  Disable github drap to reorder icon
+// @description  Disable github 'drop to reorder' icon
 // @author       wjjwkwindy
 // @match        *://github.com/*
 // @grant        none
@@ -31,7 +31,7 @@
         if (dragSetting) {
             setDragIconElem(dragSetting);
         } else {
-            console.log('can\'t find localstorage');
+            console.log('can\'t find localStorage');
             setDragIconElem('true');
         }
     }

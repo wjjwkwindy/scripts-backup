@@ -2,7 +2,7 @@
 // @name         Kill "Google offered in"
 // @namespace    http://co2oc.com/
 // @version      1.0
-// @description  Kill "Google offered in" conent at google homepage.
+// @description  Kill "Google offered in" content at google homepage.
 // @author       wjjwkwindy
 // @match        https://www.google.com/
 // @grant        none
@@ -14,7 +14,7 @@
     // 删除"google offered in"
     let SIvCob = document.getElementById('SIvCob');
     if (SIvCob.style) {
-        // 删除'Google offered in'元素
+        // 删除' Google offered in '元素
         SIvCob.parentNode.removeChild(SIvCob);
     }
 
