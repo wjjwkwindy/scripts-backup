@@ -13,7 +13,7 @@
 
     var iconCss = document.createElement('style');
     iconCss.type = 'text/css';
-    iconCss.innerText = '.hide-drag{width:40px;height:20px;border:1px solid rgb(255, 73, 73);background-color:rgb(255, 73, 73);border-radius:10px;box-sizing:border-box;margin-right:5px;position:relative;top:4px;float:right;cursor:pointer}.hide-drag:after{content:"";width:16px;height:16px;background-color:#fff;border-radius:100%;position:absolute;top:1px;left:1px;transition:.3s}.active{border:1px solid #13ce66;background-color:#13ce66;}.active:after{left:20px}';
+    iconCss.innerText = '.hide-drag{width:40px;height:20px;border:1px solid rgb(255, 73, 73);background-color:rgb(255, 73, 73);border-radius:10px;box-sizing:border-box;margin-right:5px;position:relative;top:4px;float:right;cursor:pointer}.hide-drag:after{content:"";width:16px;height:16px;background-color:#fff;border-radius:100%;position:absolute;top:.5px;left:1px;transition:.3s}.active{border:1px solid #13ce66;background-color:#13ce66;}.active:after{left:20px}';
     document.getElementsByTagName('head')[0].appendChild(iconCss);
 
     var dragIconElem = document.getElementsByClassName('pinned-repository-handle');
